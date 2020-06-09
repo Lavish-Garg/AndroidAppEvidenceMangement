@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Main3Activity">
+
+    <ImageView
+        android:id= "@+id/myImage"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"  />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:id="@+id/btn_choose"
+        android:layout_width="166dp"
+        android:layout_height="46dp"
+        android:layout_weight="1"
+        android:background="@drawable/abc_vector_test"
+        android:text="Choose"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="603dp" />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="167dp"
+        android:layout_height="38dp"
+        android:layout_weight="1"
+        android:background="@drawable/abc_vector_test"
+        android:text="Upload"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="608dp" />
+</LinearLayout>
+
